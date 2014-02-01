@@ -18,6 +18,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
     
+    font-family: "Times New Roman", Times, serif;
     font-size: 100%;
 }
 
@@ -37,27 +38,30 @@ body {
 }
 
 .logo {
-    height: 6rem;
-    width: auto;
+    height: auto;
+    width: 6rem;
     margin: .5rem 4%;
 }  
 
-article, footer {
+article {
     margin: 0;
     padding: 0 4%;
     overflow: hidden;
 }
 
+h1, h2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 1rem auto 0; 
+}    
+
 h1 {
     font-size: 3rem;
     line-height: 3rem;
-    margin: 1rem auto 0; 
 }
 
 h2 {
     font-size: 2rem;
     line-height: 2rem;
-    margin: 1rem auto 0; 
 }
 
 hr {
@@ -70,12 +74,16 @@ p {
     margin: 0 0 1rem;
 }
 
+strong {
+    color: #069;
+}
+
 .firstp:first-line{
     font-variant:small-caps;
 }    
 
 figure {
-    margin: 0 auto 1.5rem; /* auto in case we want smaller */
+    margin: 0 auto 1rem; 
     width: 90%;
 }    
 
@@ -86,11 +94,14 @@ figcaption {
 
 footer {
     background-color: #069;
+    font-family: "Courier New", Courier, monospace;
+    padding: 0 4%;
+    overflow: hidden;
 }  
 
 footer p {
     font-size: .75rem;
-    margin: .5rem 5% 5rem;
+    margin: .5rem auto 1.5rem;
     color: white;
 }    
 
