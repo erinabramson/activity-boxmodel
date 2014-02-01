@@ -98,6 +98,7 @@ figcaption {
 }    
 
 footer {
+    margin: 1rem 0 0;
     background-color: #069;
     font-family: "Courier New", Courier, monospace;
     padding: 0 4%;
