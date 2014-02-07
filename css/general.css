@@ -83,7 +83,7 @@ strong {
 }
 
 .firstp:first-line{
-    font-variant:small-caps;
+    font-variant: small-caps;
 }    
 
 figure {
@@ -112,5 +112,5 @@ footer p {
 }    
 
 footer a {    
-    color:rgb(209,211,212);
+    color: rgb(209,211,212);
 }  
